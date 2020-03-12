@@ -3,7 +3,7 @@ let rate = 1;
 
 function setup() {
     let canvas = createCanvas(400, 400);
-    canvas.parent(document.getElementById('lineStudyOne'));
+    canvas.parent(document.getElementById('artContainer'));
     background(200);
     frameRate(60);
 }

@@ -6,7 +6,7 @@ let rate = 1;
 
 function setup() {
     let canvas = createCanvas(400, 400);
-    canvas.parent(document.getElementById('lineStudyTwo'));
+    canvas.parent(document.getElementById('artContainer'));
     background(200);
 }
 
